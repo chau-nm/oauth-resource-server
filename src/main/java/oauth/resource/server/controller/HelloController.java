@@ -8,6 +8,6 @@ public class HelloController {
     
     @GetMapping("hello")
     public String sayHello() {
-        return "Hello OAuth2 resource server";
+        return "Authorized OAuth2";
     }
 }
